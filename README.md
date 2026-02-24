@@ -88,31 +88,6 @@ py -3.12 .\app.py
 - `/delete <id>` - удалить пост из отложенных
 - `/skip` - пропустить добавление фото в процессе создания поста
 
-## Подготовка к GitHub
-
-Перед первым пушем:
-
-1. Инициализируй git-репозиторий:
-
-```powershell
-git init
-git add .
-git commit -m "Initial commit"
-```
-
-2. Если `.env` уже попадал в индекс, убери его из отслеживания:
-
-```powershell
-git rm --cached .env
-```
-
-3. Привяжи удалённый репозиторий и отправь код:
-
-```powershell
-git branch -M main
-git remote add origin https://github.com/<your-user>/<your-repo>.git
-git push -u origin main
-```
 
 ## Важно
 
